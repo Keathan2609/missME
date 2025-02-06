@@ -1,0 +1,139 @@
+/* general */
+body {
+    background-color: lightblue;
+    font-family: 'Lemon Milk', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* page background */
+.sixth-page {
+    background-color: black;
+    color: white;
+}
+
+/* centering content */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+}
+
+/* gif style */
+.gif {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* gif position */
+.second-page .gif {
+    position: relative;
+    top: 0px; 
+    left: -10px;  
+}
+
+.third-page .gif {
+    position: relative;
+    top: -140px;
+    left: 0px; 
+}
+
+.fifth-page .gif {
+    position: relative;
+    top: -220px; 
+    left: -10px; 
+}
+
+/*text position*/
+.second-page h1 {
+    position: relative;
+    top: -55px; 
+    left: 0px;  
+}
+
+.third-page h1 {
+    position: relative;
+    top: -150px;
+    left: 10px; 
+}
+
+.fifth-page h1 {
+    position: relative;
+    top: -250px; 
+    left: -10px; 
+}
+
+/* button styles */
+.button {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 1.2em;
+    text-decoration: none; 
+    border-radius: 8px;
+    font-family: 'Lemon Milk', sans-serif;
+    text-align: center;
+    cursor: pointer;
+    margin: 10px;
+}
+
+/* yes button*/
+.yes {
+    background-color: green;
+    color: white;
+}
+
+/* yes button adjustments */
+.second-page .yes {
+    transform: scale(4); 
+}
+
+.third-page .yes {
+    transform: scale(8); 
+}
+
+.fifth-page .yes {
+    transform: scale(12); 
+}
+
+/* no button */
+.no {
+    background-color: red;
+    color: white;
+}
+
+/* no button positions */
+.second-page .no {
+    position: relative;
+    left: 100px; 
+}
+
+.third-page .no {
+    position: relative;
+    left: 255px; 
+}
+
+.fifth-page .no {
+    position: relative;
+    left: 415px; 
+}
+
+/* back button */
+.back {
+    background-color: gray;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+}
+
+/* button effects */
+.button:hover {
+    opacity: 0.8;
+}
